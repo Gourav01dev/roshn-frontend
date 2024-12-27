@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# Roshn Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React application created using Vite for development. This app uses various libraries for state management, routing, and UI components.
 
-## Available Scripts
+# Description
 
-In the project directory, you can run:
+This React application fetches a list of users from an API and displays them in a table with pagination. When a user is clicked, it navigates to a details page showing more information about the selected user. The app uses React Router for navigation and Redux Toolkit for state management. It implements error handling by retrying the API call up to three times in case of failure, and displays appropriate error messages if the data cannot be loaded.
 
-### `npm start`
+## Features
+
+- **React** for building the UI
+- **Vite** for fast development and build
+- **Redux Toolkit** for state management
+- **React Router** for navigation
+- **Radix UI** for accessible UI components
+- **Axios** for making HTTP requests
+- **React Icons** for scalable icons
+
+## Libraries Used
+
+- `@radix-ui/react-primitive`: A low-level component primitive for building custom UI components.
+- `@radix-ui/themes`: Provides accessible UI themes for Radix UI components.
+- `@reduxjs/toolkit`: A set of tools for efficient Redux development.
+- `react-redux`: Official bindings for Redux in React.
+- `react-router-dom`: Declarative routing for React.
+- `axios`: Promise-based HTTP client for the browser and Node.js.
+- `react-icons`: A library of icons for React.
+- `web-vitals`: Provides tools to measure performance metrics of your app.
+
+## Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/roshn-frontend.git
+   cd roshn-frontend
+
+### `npm run dev`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
